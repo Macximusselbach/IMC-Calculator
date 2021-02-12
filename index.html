@@ -9,6 +9,43 @@
 </head>
 
 <body>
+    <h1>Calculadora de IMC</h1>
+    
+    <form id="form">
+        <input type="text" id="peso" placeholder="Peso" required>
+        <input type="text" id="altura" placeholder="Altura" required>
+        <button type="submit" id="calcular">Calcular</button>
+    </form>
+
+    <table>
+        <thead>
+            <th>Classificação</th>
+            <th>IMC</th>
+            <th>Peso</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Magreza</td>
+                <td>&lt; 18.5</td>
+                <td>&lt; 59.9kg</td>
+            </tr>
+            <tr>
+                <td>Normal</td>
+                <td>18.5 a 24.9</td>
+                <td>59.9kg a 80.7kg</td>
+            </tr>
+            <tr>
+                <td>Sobrepeso</td>
+                <td>24.9 a 30</td>
+                <td>80.7kg a 97.2kg</td>
+            </tr>
+            <tr>
+                <td>Obesidade</td>
+                <td>&gt; 30</td>
+                <td>&gt; 97.2kg</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
