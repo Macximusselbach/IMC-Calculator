@@ -1,0 +1,10 @@
+.input {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #212529; 
+    padding: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #CED4DA;
+    border-radius: 4px;
+}
