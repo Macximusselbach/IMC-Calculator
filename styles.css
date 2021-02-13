@@ -1,10 +1,21 @@
 .input {
     font-size: 16px;
     font-family: Arial, sans-serif;
-    color: #212529; 
+    color: #212529;
     padding: 14px;
     border-width: 1px;
     border-style: solid;
     border-color: #CED4DA;
+    border-radius: 4px;
+}
+
+.botao {
+    font-size: 16px;
+    padding: 14px;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background-color: #0D6EFD;
+    border: none;
     border-radius: 4px;
 }
