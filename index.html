@@ -12,13 +12,11 @@
 <body>
     <div class="container">
         <h1 class="titulo">Calculadora de IMC</h1>
-        
         <form id="form" class="form">
             <input type="text" id="peso" class="input" placeholder="Peso" required>
             <input type="text" id="altura" class="input" placeholder="Altura" required>
             <button type="submit" id="calcular" class="botao">Calcular</button>
         </form>
-    
         <table class="table">
             <thead>
                 <tr>
@@ -28,22 +26,22 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr id="magreza">
                     <td>Magreza</td>
                     <td>&lt; 18.5</td>
                     <td>&lt; 59.9kg</td>
                 </tr>
-                <tr>
+                <tr id="normal">
                     <td>Normal</td>
                     <td>18.5 a 24.9</td>
                     <td>59.9kg a 80.7kg</td>
                 </tr>
-                <tr>
+                <tr id="sobrepeso">
                     <td>Sobrepeso</td>
                     <td>24.9 a 30</td>
                     <td>80.7kg a 97.2kg</td>
                 </tr>
-                <tr>
+                <tr id="obesidade">
                     <td>Obesidade</td>
                     <td>&gt; 30</td>
                     <td>&gt; 97.2kg</td>
@@ -51,6 +49,7 @@
             </tbody>
         </table>
     </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
