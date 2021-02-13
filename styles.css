@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .input {
@@ -75,4 +76,8 @@ body {
 
 .table tbody tr {
     border-bottom-color: #CED4DA;
+}
+
+.classificacao {
+    background-color: #ffe897;
 }
