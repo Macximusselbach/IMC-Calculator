@@ -34,3 +34,9 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.titulo {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
