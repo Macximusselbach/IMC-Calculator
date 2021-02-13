@@ -15,6 +15,7 @@ body {
     border-style: solid;
     border-color: #CED4DA;
     border-radius: 4px;
+    margin-right: 8px;
 }
 
 .botao {
@@ -24,8 +25,9 @@ body {
     color: #FFFFFF;
     border-radius: 4px;
     background-color: #0D6EFD;
-    border: none;
+    border: 1px solid #0D6EFD;
     border-radius: 4px;
+    min-width: 150px;
 }
 
 .container {
@@ -39,4 +41,38 @@ body {
     font-size: 48px;
     font-family: Arial, sans-serif;
     font-weight: normal;
+    color: #212529;
+    margin-bottom: 0;
+}
+
+.form {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #212529;
+}
+
+.table tr td,
+.table tr th {
+    padding: 16px;
+}
+
+.table thead tr,
+.table tbody tr {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.table thead tr {
+    border-bottom-color: #212529;
+}
+
+.table tbody tr {
+    border-bottom-color: #CED4DA;
 }
