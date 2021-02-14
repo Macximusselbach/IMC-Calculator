@@ -3,8 +3,16 @@ function calcularIMC(peso, altura) {
     return imc.toFixed(2);
 }
 
+function limparCampos() {
+    document.getElementById("magreza").classList.remove("classificacao");
+    document.getElementById("normal").classList.remove("classificacao");
+    document.getElementById("sobrepeso").classList.remove("classificacao");
+    document.getElementById("obesidade").classList.remove("classificacao");
+}
+
 document.getElementById("form").addEventListener("submit", (e) => {
     e.preventDefault();
+    limparCampos();
 
     const peso = document.getElementById("peso").value;
     const altura = document.getElementById("altura").value;
