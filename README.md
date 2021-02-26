@@ -1,5 +1,7 @@
 # IMC-Calculator
 
+- https://calculadora-de-imc.netlify.app/
+
 ## Referências:
 * https://www.tuasaude.com/calculadora/imc/
 * https://www.figma.com/file/sRPpl3BWypvjHgFUDnqbb1/Calculadora-de-IMC?node-id=0%3A1
